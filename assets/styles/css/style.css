@@ -1,0 +1,31 @@
+body {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  width: 100vw;
+  height: 60vh;
+}
+body section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 30vh;
+}
+body section #yep1 {
+  background: linear-gradient(#073b4c, #118ab2, #06d6a0);
+}
+body section #yep2 {
+  background: radial-gradient(#073b4c, #118ab2, #06d6a0);
+}
+body section #yep3 {
+  background: radial-gradient(#06d6a0, #118ab2, #073b4c);
+}
+body section #yep4 {
+  background: radial-gradient(#ef476f, #ffd166, #06d6a0, #118ab2, #073b4c);
+}
+body section #yep5 {
+  background: radial-gradient(#ef476f, #ffd166, #06d6a0, #118ab2, #073b4c, #118ab2, #06d6a0, #ffd166, #ef476f);
+}
+body section #yep6 {
+  background: linear-gradient(#073b4c, #118ab2, #06d6a0, #ffd166, #ef476f);
+}
+
+/*# sourceMappingURL=style.css.map */
